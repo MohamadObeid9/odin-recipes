@@ -1,8 +1,31 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+div.title{
+    background-color: #00ffff;
+    border: 5px solid rgb(68, 0, 255);
+    margin:10px;
+}
+div.recipes{
+    background-color: #00ffff;
+    margin:10px;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    border: 5px solid rgb(255 0 3);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
 h1{
     font-weight: bolder;
     font-size: 52px;
+    text-align: center;
 }
 a{
     font-size: 30px;
-    color: #ff0000;
+    color: #4400ff;
 }
